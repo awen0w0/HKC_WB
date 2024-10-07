@@ -1,0 +1,2 @@
+[2021-09-29 11:42:27] 	IP:cmes-test.sys.gz.cvte.cn,UserName:chenqiang@qx.com,PassWord:123456
+[2021-09-29 11:42:27] 	{"IsSuccess":false,"Code":"400","Msg":"System.Net.WebException: 远程服务器返回错误: (500) 内部服务器错误。\r\n   在 System.Net.HttpWebRequest.GetResponse()\r\n   在 MESInterface.Common.ApiHelp.Get(String Url, String Token)\r\n   在 MESInterface.Common.ApiHelp.GetToken()\r\n   在 MESInterface.Interface.CMESLogin(String IP, String UserName, String PassWord)"}
